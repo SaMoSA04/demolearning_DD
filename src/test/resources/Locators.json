@@ -1,0 +1,22 @@
+
+    {
+        "firstName": "//input[@id='firstName']",
+        "lastName": "//input[@id='lastName']",
+        "email": "//input[@id='userEmail']",
+        "genderRadio": "//label[@class='custom-control-label' and text()='%s']",
+        "maleGender": "//input[@name='gender' and @value='Male']",
+        "femaleGender": "//input[@name='gender' and @value='Female']",
+        "otherGender": "//input[@name='gender' and @value='Other']",
+        "mobile": "//input[@id='userNumber']",
+        "dateOfBirth": "//input[@id='dateOfBirthInput']",
+        "subjects": "//input[@id='subjectsContainer']",
+        "hobbyCheck": "//label[text()='%s']",
+        "sportsHobby": "//label[text()='Sports']",
+        "readingHobby": "//label[text()='Reading']",
+        "musicHobby": "//label[text()='Music']",
+        "currentAddress": "//textarea[@id='currentAddress']",
+        "stateDropdown": "//div[contains(@class, 'css-1hwfws3']",
+        "cityDropdown": "//div[contains(@class, ' css-1hwfws3']",
+        "submitButton": "//button[@id='submit']",
+        "successMessage": "//div[@id='example-modal-sizes-title-lg']"
+    }

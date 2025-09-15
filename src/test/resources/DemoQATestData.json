@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "Ajay",
+    "lastName": "Kumar",
+    "email": "ajay@example.com",
+    "gender": "Male",
+    "mobile": "9876543210",
+    "hobby" : ["Sports", "Reading"],
+    "successMessage": "Thanks for submitting the form"
+  },
+  {
+    "firstName": "Neha",
+    "lastName": "Sharma",
+    "email": "neha@example.com",
+    "gender": "Female",
+    "mobile": "9123456789",
+    "hobby" : ["Music"],
+    "successMessage": "Thanks for submitting the form"
+  }
+]
