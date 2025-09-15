@@ -15,6 +15,7 @@ mvn test "-Dsurefire.suiteXmlFiles=testng.xml"
 7. Run git push -u origin main
 
 # Adding Modifications to the Feature Branch
-1. Stage Changes - Run git add .
-2. Commit your changes with a clear message - Run git commit -m "feat: describe your changes here"
-3. Push to your feature branch - Run git push -u origin feature/your-feature-name
+1. Switch to feature branch - Run git checkout -b feature/feature
+2. Stage Changes - Run git add .
+3. Commit your changes with a clear message - Run git commit -m "feat: describe your changes here"
+4. Push to your feature branch - Run git push -u origin feature/your-feature-name
