@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T22:46:58 IST" name="DemoQA DataDriven Suite" finished-at="2025-09-14T22:47:37 IST" duration-ms="39188">
+  <suite started-at="2025-09-15T11:46:56 IST" name="DemoQA DataDriven Suite" finished-at="2025-09-15T11:48:01 IST" duration-ms="65053">
     <groups>
     </groups>
-    <test started-at="2025-09-14T22:46:58 IST" name="PracticeFormTestsJSON" finished-at="2025-09-14T22:47:37 IST" duration-ms="39188">
+    <test started-at="2025-09-15T11:46:56 IST" name="PracticeFormTestsJSON" finished-at="2025-09-15T11:48:01 IST" duration-ms="65053">
       <class name="com.ajay.learning.tests.DemoQATest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:46:58 IST" name="setUp" finished-at="2025-09-14T22:46:58 IST" duration-ms="34" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:46:56 IST" name="setUp" finished-at="2025-09-15T11:46:56 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:46:58 IST" name="launchBrowser" finished-at="2025-09-14T22:47:08 IST" duration-ms="9733" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:46:56 IST" name="launchBrowser" finished-at="2025-09-15T11:47:04 IST" duration-ms="7745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="fillPracticeForm(org.json.simple.JSONObject)[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:47:08 IST" name="fillPracticeForm" data-provider="formData" finished-at="2025-09-14T22:47:19 IST" duration-ms="10945" status="PASS">
+        <test-method signature="fillPracticeForm(org.json.simple.JSONObject)[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:47:04 IST" name="fillPracticeForm" data-provider="formData" finished-at="2025-09-15T11:47:20 IST" duration-ms="15454" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"firstName":"Ajay","lastName":"Kumar","gender":"Male","mobile":"9876543210","successMessage":"Thanks for submitting the form","email":"ajay@example.com","hobby":["Sports","Reading"]}]]>
+                <![CDATA[{"firstName":"Ajay","lastName":"Kumar","gender":"Male","city":"Delhi","mobile":"9876543210","dateOfBirth":"15 Jun 1990","state":"NCR","successMessage":"Thanks for submitting the form","email":"ajay@example.com","hobby":["Sports","Reading"],"currentAddress":"123 Main St, Cityville"}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillPracticeForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:47:19 IST" name="tearDown" finished-at="2025-09-14T22:47:20 IST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:47:20 IST" name="tearDown" finished-at="2025-09-15T11:47:20 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:47:20 IST" name="launchBrowser" finished-at="2025-09-14T22:47:28 IST" duration-ms="8866" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:47:20 IST" name="launchBrowser" finished-at="2025-09-15T11:47:47 IST" duration-ms="26824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="fillPracticeForm(org.json.simple.JSONObject)[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:47:28 IST" name="fillPracticeForm" data-provider="formData" finished-at="2025-09-14T22:47:37 IST" duration-ms="8153" status="PASS">
+        <test-method signature="fillPracticeForm(org.json.simple.JSONObject)[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:47:47 IST" name="fillPracticeForm" data-provider="formData" finished-at="2025-09-15T11:48:00 IST" duration-ms="13389" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"firstName":"Neha","lastName":"Sharma","gender":"Female","mobile":"9123456789","successMessage":"Thanks for submitting the form","email":"neha@example.com","hobby":["Music"]}]]>
+                <![CDATA[{"firstName":"Neha","lastName":"Sharma","gender":"Female","city":"Agra","mobile":"9123456789","dateOfBirth":"22 Dec 1992","state":"Uttar Pradesh","successMessage":"Thanks for submitting the form","email":"neha@example.com","hobby":["Music"],"currentAddress":"456 Elm St, Townsville"}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillPracticeForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-14T22:47:37 IST" name="tearDown" finished-at="2025-09-14T22:47:37 IST" duration-ms="458" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ajay.learning.tests.DemoQATest@4a22f9e2]" started-at="2025-09-15T11:48:00 IST" name="tearDown" finished-at="2025-09-15T11:48:01 IST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

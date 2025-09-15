@@ -6,7 +6,11 @@
     "gender": "Male",
     "mobile": "9876543210",
     "hobby" : ["Sports", "Reading"],
-    "successMessage": "Thanks for submitting the form"
+    "successMessage": "Thanks for submitting the form",
+    "dateOfBirth": "15 Jun 1990",
+    "currentAddress": "123 Main St, Cityville",
+    "state": "NCR",
+    "city": "Delhi"
   },
   {
     "firstName": "Neha",
@@ -15,6 +19,10 @@
     "gender": "Female",
     "mobile": "9123456789",
     "hobby" : ["Music"],
-    "successMessage": "Thanks for submitting the form"
+    "successMessage": "Thanks for submitting the form",
+    "dateOfBirth": "22 Dec 1992",
+    "currentAddress": "456 Elm St, Townsville",
+    "state": "Uttar Pradesh",
+    "city": "Agra"
   }
 ]

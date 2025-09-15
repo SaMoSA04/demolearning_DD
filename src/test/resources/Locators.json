@@ -15,8 +15,10 @@
         "readingHobby": "//label[text()='Reading']",
         "musicHobby": "//label[text()='Music']",
         "currentAddress": "//textarea[@id='currentAddress']",
-        "stateDropdown": "//div[contains(@class, 'css-1hwfws3']",
-        "cityDropdown": "//div[contains(@class, ' css-1hwfws3']",
+        "stateDropdown": "//div[@id='state']//div[contains(@class, 'css-1hwfws3')]",
+        "cityDropdown": "//div[@id='city']//div[contains(@class, 'css-1hwfws3')]",
         "submitButton": "//button[@id='submit']",
-        "successMessage": "//div[@id='example-modal-sizes-title-lg']"
+        "successMessage": "//div[@id='example-modal-sizes-title-lg']",
+        "fileUpload": "//input[@id='uploadPicture' and @type='file']",
+        "stateValue": "//div[contains(@id, 'react-select') and text()='%s']"
     }

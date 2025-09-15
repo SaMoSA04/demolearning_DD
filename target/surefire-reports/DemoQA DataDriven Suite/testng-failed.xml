@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQA DataDriven Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.ajay.learning.tests.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="PracticeFormTestsJSON(failed)" verbose="0">
+    <classes>
+      <class name="com.ajay.learning.tests.DemoQATest">
+        <methods>
+          <include name="fillPracticeForm" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.ajay.learning.tests.DemoQATest -->
+    </classes>
+  </test> <!-- PracticeFormTestsJSON(failed) -->
+</suite> <!-- Failed suite [DemoQA DataDriven Suite] -->
